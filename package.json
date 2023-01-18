@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next build && next export && python main.py",
-    "build": "next build && next export",
+    "dev": "next build && next export -o next_eel_ts/out && cd next_eel_ts &&python main.py",
+    "build": "next build && next export -o next_eel_ts/out",
     "start": "next start",
     "lint": "next lint"
   },
