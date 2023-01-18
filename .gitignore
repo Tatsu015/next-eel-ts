@@ -34,3 +34,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python venv
+.venv
+
+# Pyinstaller
+next-eel-ts/out
+*.spec
+dist

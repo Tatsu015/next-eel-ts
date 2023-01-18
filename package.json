@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next build && next export -o next_eel_ts/out && cd next_eel_ts &&python main.py",
-    "build": "next build && next export -o next_eel_ts/out",
+    "dev": "next build && next export -o next-eel-ts/out && cd next-eel-ts &&python main.py",
+    "build": "next build && next export -o out && python -m eel next-eel-ts/main.py out --onefile",
+    "clean": "rm -rf build dist out main.spec",
     "start": "next start",
     "lint": "next lint"
   },

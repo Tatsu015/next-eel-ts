@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Tatsu015 <tatsumi.soichiro@gmail.com>"]
 readme = "README.md"
-packages = [{include = "next_eel_ts"}]
+packages = [{include = "next-eel-ts"}]
 
 [tool.poetry.dependencies]
 python = "<3.12,>=3.7,"
