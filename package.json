@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next build && next export -o out && cd next-eel-ts &&python main.py",
+    "uidev": "next build && next export -o out",
+    "dev": "cd next-eel-ts && python main.py dev",
     "build": "next build && next export -o out && python -m eel next-eel-ts/main.py out --onefile",
     "clean": "rm -rf build dist out main.spec",
     "start": "next start",
